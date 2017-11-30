@@ -18,7 +18,6 @@ Vue.use(Vuetify, { theme: {
 const appComponent = () => import('./components/app').then(({ AppComponent }) => AppComponent);
 // const appComponent = () => import(/* webpackChunkName: 'app' */'./components/app').then(({ AppComponent }) => AppComponent);
 
-// import './sass/vuetify.scss';
 import './sass/main.scss';
 
 if (process.env.ENV === 'development' && module.hot) {
